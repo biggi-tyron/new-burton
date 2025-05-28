@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Burton And Associates</title>
+    <link rel="shortcut icon" href="./images/burton logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <div class="logo-text">
+              <div class="logo-main">BURTON & ASSOCIATES</div>
+              <div class="logo-subtitle">
+                Excellence in Legal Representation
+              </div>
+            </div>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="attorneys.html">Attorneys</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1>Contact Burton And Associates</h1>
+          <p>Get the Legal Help You Need Today</p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h2>Get In Touch</h2>
+              <p>
+                Don't wait to get the legal representation you deserve. Contact
+                Burton And Associates today for a consultation about your legal
+                matter.
+              </p>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <div class="contact-icon">📞</div>
+                  <div class="contact-text">
+                    <h3>Phone</h3>
+                    <p><a href="tel:3055639097">(305) 563-9097</a></p>
+                    <p>
+                      <a href="mailto:info@burtonandassociatess.com"
+                        >info@burtonandassociatess.com</a
+                      >
+                    </p>
+                    <p class="contact-note">Available 24/7 for emergencies</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">🕒</div>
+                  <div class="contact-text">
+                    <h3>Office Hours</h3>
+                    <p>
+                      Monday - Friday: 8:00 AM - 6:00 PM<br />
+                      <strong>Closed On Weekends</strong>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">⚖️</div>
+                  <div class="contact-text">
+                    <h3>Free Consultation</h3>
+                    <p>
+                      We offer free initial consultations for most practice
+                      areas. Call today to schedule your appointment.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h2>Send Us a Message</h2>
+              <form id="contactForm">
+                <div class="form-group">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" />
+                </div>
+
+                <div class="form-group">
+                  <label for="practice-area">Practice Area</label>
+                  <select id="practice-area" name="practice-area">
+                    <option value="">Select a practice area</option>
+                    <option value="personal-injury">Personal Injury</option>
+                    <option value="criminal-defense">Criminal Defense</option>
+                    <option value="family-law">Family Law</option>
+                    <option value="business-law">Business Law</option>
+                    <option value="real-estate">Real Estate Law</option>
+                    <option value="estate-planning">Estate Planning</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="urgency">Urgency Level</label>
+                  <select id="urgency" name="urgency">
+                    <option value="normal">Normal</option>
+                    <option value="urgent">Urgent</option>
+                    <option value="emergency">Emergency</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Please describe your legal matter..."
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                  <input type="checkbox" id="consent" name="consent" required />
+                  <label for="consent"
+                    >I consent to being contacted by Burton And Associates
+                    regarding my legal matter. *</label
+                  >
+                </div>
+
+                <a href="mailto:info@burtonandassociatess.com"
+                  ><button type="submit" class="btn btn-primary">
+                    Send Message
+                  </button></a
+                >
+              </form>
+
+              <div class="form-note">
+                <p>
+                  <strong>Note:</strong> Submitting this form does not create an
+                  attorney-client relationship. Please do not include
+                  confidential information in your message.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="emergency-contact">
+        <div class="container">
+          <div class="emergency-info">
+            <h2>Need Immediate Legal Help?</h2>
+            <p>
+              If you're facing a legal emergency, don't wait. Call us now for
+              immediate assistance.
+            </p>
+            <a href="tel:3055639097" class="btn btn-emergency"
+              >Call Now: (305) 563-9097</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Burton And Associates</h3>
+            <p>Excellence in Legal Representation</p>
+            <p><a href="tel:+447441904942">+447441904942</a></p>
+
+            <a href="mailto:info@burtonandassociatess.com">
+              <p>info@burtonandassociatess.com</p></a
+            >
+            <p>14 Weston Street, London, SE1 3ER, United Kindom, London.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="attorneys.html">Attorneys</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Practice Areas</h3>
+            <ul>
+              <li>Personal Injury</li>
+              <li>Criminal Defense</li>
+              <li>Family Law</li>
+              <li>Business Law</li>
+              <li>Real Estate</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Burton And Associates. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
